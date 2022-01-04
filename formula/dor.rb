@@ -1,4 +1,5 @@
 require "formula"
+require_relative "lib/private_strategy"
 
 class Dor < Formula
   desc "DOR⚡️ Flutter Command Line Interface"
