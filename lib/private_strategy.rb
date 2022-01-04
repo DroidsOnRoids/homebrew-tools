@@ -1,3 +1,6 @@
+# Taken from:
+# https://gist.github.com/ZPascal/b21c652b811872b3f56db9d54d61d6c6
+
 # Save this file as `lib/private_strategy.rb`
 # Add `require_relative "lib/private_strategy"` to your formula.
 # 
