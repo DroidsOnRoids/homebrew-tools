@@ -1,7 +1,7 @@
 require "formula"
 require_relative "../lib/private_strategy"
 
-class Dor < Formula
+class Wizard < Formula
   desc "DOR⚡️ Flutter CI-Wizard"
   homepage "https://github.com/droidsonroids/flutter-ci-wizard"
   url "https://github.com/DroidsOnRoids/flutter-ci-wizard/releases/download/0.1.0/wizard.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
