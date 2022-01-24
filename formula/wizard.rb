@@ -9,7 +9,7 @@ class Wizard < Formula
   head "https://github.com/DroidsOnRoids/flutter-ci-wizard.git"
 
   def install
-    bin.install "wizard"
+    bin.install "wizard", "bitrise", "project_setup"
   end
 
   # Homebrew requires tests.
