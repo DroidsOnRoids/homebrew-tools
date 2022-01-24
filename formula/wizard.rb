@@ -4,8 +4,8 @@ require_relative "../lib/private_strategy"
 class Wizard < Formula
   desc "DOR⚡️ Flutter CI-Wizard"
   homepage "https://github.com/droidsonroids/flutter-ci-wizard"
-  url "https://github.com/DroidsOnRoids/flutter-ci-wizard/releases/download/0.1.0/wizard.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  sha256 "d3c0c3b1dae71f1dcd4c16e5b465f8d93c27d26bb43f2618621ab5308755cf81"
+  url "https://github.com/DroidsOnRoids/flutter-ci-wizard/releases/download/0.1.1/wizard.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  sha256 "74e7b159fe84085a2d86fe57715594afebd7491c946675867c04c11db0bc9856"
   head "https://github.com/DroidsOnRoids/flutter-ci-wizard.git"
 
   def install
