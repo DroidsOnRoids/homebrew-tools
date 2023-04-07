@@ -4,8 +4,8 @@ require_relative "../lib/private_strategy"
 class Dor < Formula
   desc "DOR⚡️ Flutter Command Line Interface"
   homepage "https://github.com/droidsonroids/dor-flutter-cli"
-  url "https://github.com/DroidsOnRoids/dor-flutter-cli/releases/download/0.4.7/dor.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  sha256 "b33072971fdf62597a6714b7f4484f714118306efbdd58819c9a4f61e06d174e"
+  url "https://github.com/DroidsOnRoids/dor-flutter-cli/releases/download/0.4.8/dor.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  sha256 "4330fbf219c4018e52e0dc16de4f7eca05a725b583b4150c46ae9061550f14bc"
   head "https://github.com/DroidsOnRoids/dor-flutter-cli.git"
 
   def install
